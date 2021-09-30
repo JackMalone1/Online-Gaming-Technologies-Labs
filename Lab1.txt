@@ -1,0 +1,24 @@
+default subnet masks
+class a 255.0.0.0
+class b 255.255.0.0
+class c 255.255.255.0
+
+problem 7
+
+address class: b
+default subnet mask: 255.255.0.0
+custom subnet mask: 255.255.255.224
+total number of subnets: 2048
+total number of host addresses: 64
+number of usable addresses: 62
+number of bits borrowed: 11
+
+problem 15
+address class: b
+default subnet mask: 255.255.0.0
+custom subnet mask: 255.255.255.224
+total number of subnets: 2048
+total number of host addresses: 64
+number of usable addresses: 62
+number of bits borrowed: 11
+
