@@ -1,3 +1,5 @@
+Custom Subnet Masks
+
 default subnet masks
 class a 255.0.0.0
 class b 255.255.0.0
@@ -22,3 +24,42 @@ total number of host addresses: 64
 number of usable addresses: 62
 number of bits borrowed: 11
 
+Subnetting
+Problem 11
+Number of usable hosts: 8,000
+Network address: 135.70.0.0
+Address Class: Class B
+Default subnet mask: 255.255.0.0
+Custom subnet mask: 255.255.240.0
+Total number of subnets: 16
+Total number of host addresses: 8192
+Number of usable addresses: 8190
+Number of bits borrowed: 3
+
+000 0 0000
+001 0 0000
+010 0 0000
+100 0 0000
+101 0 0000 
+110 0 0000
+111 0 0000
+
+What is the 6th subnet range?: 101 0 0000 - 101 1 1111
+What is the subnet number for the 7th subnet?:
+What is the subnet broadcast address for the 3rd subnet?: 
+What are the assignable addresses for the 5th subnet?: 100 0 0000 - 100 1 1111 100 0 0001 - 100 1 1110
+
+Problem 12
+Number of needed usable hosts: 45
+Network Address: 198.125.50.0
+Address class:
+Default subnet mask:
+Custom subnet mask:
+Total number of subnets:
+Total number of host addresses:
+Number of bits borrowed:
+
+What is the 2nd subnet range?: 
+What is the subnet number for the 2nd subnet?:
+What is the subnet broadcast address for the 4th subnet?:
+What are the assingable addresses for the 3rd subnet?:
