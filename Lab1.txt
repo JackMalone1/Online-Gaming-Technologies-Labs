@@ -44,22 +44,54 @@ Number of bits borrowed: 3
 110 0 0000
 111 0 0000
 
-What is the 6th subnet range?: 101 0 0000 - 101 1 1111
-What is the subnet number for the 7th subnet?:
-What is the subnet broadcast address for the 3rd subnet?: 
-What are the assignable addresses for the 5th subnet?: 100 0 0000 - 100 1 1111 100 0 0001 - 100 1 1110
-
+What is the 6th subnet range?: 135.70.160.0-135.70.191.255
+What is the subnet number for the 7th subnet?:135.70.192.0
+What is the subnet broadcast address for the 3rd subnet?: 135.70.95.255
+What are the assignable addresses for the 5th subnet?: 135.70.128.1-135.70.159.254
 Problem 12
 Number of needed usable hosts: 45
 Network Address: 198.125.50.0
-Address class:
-Default subnet mask:
-Custom subnet mask:
-Total number of subnets:
-Total number of host addresses:
-Number of bits borrowed:
+Address class: C
+Default subnet mask 255.255.255.0:
+Custom subnet mask:255.255.255.192
+Total number of subnets:4
+Total number of host addresses:64
+Total number of usable addresses: 62
+Number of bits borrowed:2
 
-What is the 2nd subnet range?: 
-What is the subnet number for the 2nd subnet?:
-What is the subnet broadcast address for the 4th subnet?:
-What are the assingable addresses for the 3rd subnet?:
+What is the 2nd subnet range?: 198.125.50.64->198.125.50.127 
+What is the subnet number for the 2nd subnet?:198.125.50.64
+What is the subnet broadcast address for the 4th subnet?:198.125.255
+What are the assignable addresses for the 3rd subnet?:198.125.50.129->198.125.190
+
+
+Practical Sub-netting 4
+
+Address Class:B
+Custom subnet mask: 255.255.240.0
+Minimum number of subnets needed:5
+Extra subnets required for 70% growth:4
+Total number of subnets needed:9
+Number of host addresses in the largest subnet group:375
+Number of addresses needed for 70% growth in the largest subnet:228
+Total number of addresses needed for the largest subnet: 553
+IP address range for New York:135.126.0.0->135.126.15.255
+IP address range for Washington DC:135.126.16.0->135.126.31.255
+IP address range for Dallas:135.126.32.0->135.126.47.255
+IP address range for Router A to Router B serial connection:135.126.48.0->135.126.63.255
+IP address range for Router A to Router C serial connection:135.126.64.0->135.126.79.255
+
+Practical Sub-netting 6
+Address class:A
+Custom subnet class:255.240.0.0
+Minimum number of subnets required:7
+Extra subnets required for 20% growth:2
+Total number of subnets needed:9
+IP address range for Technology:10.0.0.0->10.15.255.255
+IP address range for Science:10.16.0.0->10.31.255.255
+IP address range for Arts and Drama:10.32.0.0->10.47.255.255
+IP address range for Administration:10.48.0.0->10.63.255.255
+IP address range for Router A to Router B serial connection:10.64.0.0->10.79.255.255
+IP address range for Router A to Router C serial connection:10.80.0.0->10.95.225.225
+IP address range for Router B to Router C serial connection:10.96.0.0->10.127.255.255
+
