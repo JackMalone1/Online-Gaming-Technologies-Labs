@@ -61,8 +61,8 @@ Number of bits borrowed:2
 
 What is the 2nd subnet range?: 198.125.50.64->198.125.50.127 
 What is the subnet number for the 2nd subnet?:198.125.50.64
-What is the subnet broadcast address for the 4th subnet?:198.125.255
-What are the assignable addresses for the 3rd subnet?:198.125.50.129->198.125.190
+What is the subnet broadcast address for the 4th subnet?:198.125.50.255
+What are the assignable addresses for the 3rd subnet?:198.125.50.129->198.125.50.190
 
 
 Practical Sub-netting 4
