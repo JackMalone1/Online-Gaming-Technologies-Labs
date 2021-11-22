@@ -1,0 +1,15 @@
+Q1: True
+Q2: False
+Q3: True
+Q4: False
+Q5: Triple Duplicate Ack
+Q6: No as it could just be a result of a reordering
+Q7: Time out as it increased it's window size to the maximum and still didn't receive any information
+Q8: No. Congestion in either direction could cause RTT > RTO
+Q9: Less likely since as it is a light load it should be able to handle the extra packets.
+Q10: the curved slop makes it quicker to figure out what the maximum amount of data th at the path supports quickly rather than having to wait longer for a linear slop as this could take longer than an RTT.
+Q12: RTT = 100 ms, MSS = 1000 bytes
+400 ms
+Q13: 12k difference, 100 ms for 1k so 1200 ms time delay. 
+Q14: 300 ms to get from 0 -> 7k and then another 300ms to get from 7k to 10k so 600 ms overall.
+Q15: Changing cross traffic by other concurrent senders across same routers.
